@@ -9,6 +9,9 @@ source venv/bin/activate
 # Install requirements
 pip install -r requirements.txt
 
+# Create .env file and copy content from .env.example
+cp .env.example .env
+
 # Check the project
 python manage.py check
 
