@@ -11,6 +11,11 @@ Follow these steps to set up and run the project:
     git clone <repository-url>
     cd Django-skelton
     ```
+    or 
+    ```bash
+    django-admin startproject projectname --template=https://github.com/phenix-crew/Django-framework-skeleton/archive/refs/heads/master.zip
+    cd projectname
+    ```
 
 2. **Run the setup script:**
     ```bash
